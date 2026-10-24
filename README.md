@@ -38,11 +38,33 @@ The repository combines prototype firmware, the Python application, datasets/log
 
 > **Model status:** The repository includes Random Forest model/data artifacts and dashboard model controls. Treat predictions as experimental until the labels, held-out evaluation, class distribution, and measured metrics are documented. The presence of a `.joblib` file alone does not establish model accuracy.
 
-## 🖥️ Dashboard and Prototype
+## 🖥️ Dashboard Preview
 
-The Flask dashboard is designed to display live counts, HX711 raw value/load change, temperature, transit time, speed estimate, motor state, fault diagnosis, sample collection, and model actions. The vector banner above is a visual overview of the system; it is not a live dashboard screenshot or a measured test result.
+The Flask dashboard is designed to display live counts, HX711 raw value/load change, temperature, transit time, speed estimate, motor state, fault diagnosis, sample collection, and model actions.
 
-Actual dashboard screenshots and photographs of the physical conveyor can be placed in `media/` as the project's image evidence is committed. Use genuine prototype photos and label screenshot values as snapshots rather than benchmark results.
+<div align="center">
+  <img src="media/dashboard-overview.png" alt="Conveyor AI Control Center dashboard overview" width="100%"/>
+  <br/>
+  <img src="media/dashboard-model-controls.png" alt="Dashboard sensor readings, data collection and model controls" width="100%"/>
+</div>
+
+<sub>These are snapshots of the prototype UI. Displayed readings are examples from the captured screen, not benchmark results.</sub>
+
+## 📷 Physical Prototype Gallery
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%"><img src="media/conveyor-overview.jpeg" alt="Physical conveyor prototype overview" width="100%"/><br/><b>Conveyor assembly</b></td>
+      <td align="center" width="50%"><img src="media/controller-and-sensors.jpeg" alt="ESP32 controller and sensor setup" width="100%"/><br/><b>Controller and sensors</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><img src="media/conveyor-side-view.jpeg" alt="Conveyor side view and hardware" width="100%"/><br/><b>Motor and belt view</b></td>
+      <td align="center" width="50%"><img src="media/motor-driver-wiring.jpeg" alt="Motor driver wiring" width="100%"/><br/><b>Driver wiring</b></td>
+    </tr>
+  </table>
+  <img src="media/project-gallery.jpg" alt="Dashboard and hardware project contact sheet" width="100%"/>
+</div>
 
 ## 🧠 System Architecture
 
