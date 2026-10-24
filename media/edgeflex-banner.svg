@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">EdgeFlex Smart Conveyor AI</title>
+<desc id="desc">A dark industrial-style banner showing a conveyor monitoring dashboard, conveyor belt, IR sensors, ESP32 controller and motor driver.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1424"/><stop offset="1" stop-color="#132945"/></linearGradient>
+  <linearGradient id="belt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#202f45"/><stop offset=".5" stop-color="#0c1523"/><stop offset="1" stop-color="#263a54"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+</defs>
+<rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+<circle cx="1085" cy="72" r="175" fill="#1e4f74" opacity=".18"/>
+<circle cx="1050" cy="450" r="220" fill="#2dd4bf" opacity=".05"/>
+<rect x="42" y="38" width="6" height="108" rx="3" fill="url(#accent)"/>
+<text x="70" y="68" fill="#7dd3fc" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">EDGE AI  /  INDUSTRIAL MONITORING</text>
+<text x="70" y="119" fill="#f8fafc" font-family="Arial,sans-serif" font-size="43" font-weight="700">EdgeFlex Smart Conveyor AI</text>
+<text x="72" y="151" fill="#adc5df" font-family="Arial,sans-serif" font-size="19">Explainable monitoring · Embedded control · Fault diagnostics</text>
+<rect x="70" y="179" width="312" height="36" rx="18" fill="#163954" stroke="#27627d"/>
+<circle cx="91" cy="197" r="5" fill="#34d399"/>
+<text x="105" y="203" fill="#d4f6f5" font-family="Arial,sans-serif" font-size="14" font-weight="700">ESP32 + FLASK DASHBOARD + SENSORS</text>
+<!-- dashboard panel -->
+<rect x="62" y="246" width="500" height="226" rx="18" fill="#101e32" stroke="#304660" stroke-width="2"/>
+<text x="86" y="277" fill="#eaf3ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">CONVEYOR AI CONTROL CENTER</text>
+<rect x="86" y="294" width="138" height="64" rx="10" fill="#172941" stroke="#34516f"/>
+<rect x="237" y="294" width="138" height="64" rx="10" fill="#172941" stroke="#34516f"/>
+<rect x="388" y="294" width="150" height="64" rx="10" fill="#172941" stroke="#34516f"/>
+<text x="100" y="315" fill="#83bce9" font-family="Arial,sans-serif" font-size="10" font-weight="700">PRODUCT COUNT</text>
+<text x="100" y="345" fill="#f8fafc" font-family="Arial,sans-serif" font-size="27" font-weight="700">IR1 / IR2</text>
+<text x="251" y="315" fill="#83bce9" font-family="Arial,sans-serif" font-size="10" font-weight="700">TEMPERATURE</text>
+<text x="251" y="345" fill="#f8fafc" font-family="Arial,sans-serif" font-size="27" font-weight="700">°C</text>
+<text x="402" y="315" fill="#83bce9" font-family="Arial,sans-serif" font-size="10" font-weight="700">TRANSIT / SPEED</text>
+<text x="402" y="345" fill="#f8fafc" font-family="Arial,sans-serif" font-size="27" font-weight="700">m/s</text>
+<rect x="86" y="374" width="452" height="72" rx="10" fill="#14273e" stroke="#304660"/>
+<circle cx="108" cy="398" r="6" fill="#fbbf24"/>
+<text x="124" y="403" fill="#f6d28c" font-family="Arial,sans-serif" font-size="13" font-weight="700">FAULT ANALYSIS</text>
+<text x="105" y="427" fill="#b5cbe3" font-family="Arial,sans-serif" font-size="13">Sensor checks · Operator guidance · Experimental ML</text>
+<!-- conveyor rollers and belt -->
+<g transform="translate(610,240)">
+  <text x="0" y="-20" fill="#eaf3ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">PHYSICAL PROTOTYPE</text>
+  <path d="M12 68 L520 68 L553 104 L43 104 Z" fill="#29405a" stroke="#516b88" stroke-width="2"/>
+  <path d="M43 104 L553 104 L553 205 L43 205 Z" fill="url(#belt)" stroke="#425a75" stroke-width="2"/>
+  <path d="M43 205 L553 205 L520 240 L12 240 Z" fill="#16253a" stroke="#425a75" stroke-width="2"/>
+  <g stroke="#506781" stroke-width="1" opacity=".65">
+    <path d="M75 111 L75 198 M115 111 L115 198 M155 111 L155 198 M195 111 L195 198 M235 111 L235 198 M275 111 L275 198 M315 111 L315 198 M355 111 L355 198 M395 111 L395 198 M435 111 L435 198 M475 111 L475 198 M515 111 L515 198"/>
+  </g>
+  <ellipse cx="43" cy="155" rx="19" ry="49" fill="#20354c" stroke="#7090ae" stroke-width="3"/>
+  <ellipse cx="553" cy="155" rx="19" ry="49" fill="#20354c" stroke="#7090ae" stroke-width="3"/>
+  <!-- sensor brackets -->
+  <path d="M140 62 V25 H168 V62" fill="none" stroke="#9ab5cf" stroke-width="7" stroke-linecap="round"/>
+  <rect x="136" y="40" width="36" height="17" rx="4" fill="#38bdf8" stroke="#c6f1ff" stroke-width="2"/>
+  <path d="M404 62 V25 H432 V62" fill="none" stroke="#9ab5cf" stroke-width="7" stroke-linecap="round"/>
+  <rect x="400" y="40" width="36" height="17" rx="4" fill="#2dd4bf" stroke="#c6fff5" stroke-width="2"/>
+  <path d="M154 60 V96 M418 60 V96" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4 5"/>
+  <!-- controller enclosure -->
+  <rect x="237" y="254" width="148" height="75" rx="10" fill="#14263b" stroke="#6d849b" stroke-width="2"/>
+  <rect x="251" y="265" width="46" height="42" rx="5" fill="#1c594f" stroke="#4ade80" stroke-width="2"/>
+  <rect x="260" y="274" width="27" height="22" rx="3" fill="#0f2b2e" stroke="#6ee7b7"/>
+  <circle cx="280" cy="286" r="3" fill="#a7f3d0"/>
+  <g stroke="#f59e0b" stroke-width="3"><path d="M308 274 H368 M308 285 H368 M308 296 H368"/></g>
+  <text x="311" y="316" fill="#b7d0e8" font-family="Arial,sans-serif" font-size="10">ESP32 + DRIVER</text>
+  <path d="M270 254 L165 210 M337 254 L418 210" stroke="#d3e5f7" stroke-width="2" fill="none" opacity=".8"/>
+</g>
+<rect x="615" y="486" width="540" height="3" rx="2" fill="url(#accent)"/>
+</svg>
