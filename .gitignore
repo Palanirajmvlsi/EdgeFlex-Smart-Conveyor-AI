@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+0
+OVERLOAD_THRESHOLD_COUNTS
+OVER_TEMPERATURE_C
