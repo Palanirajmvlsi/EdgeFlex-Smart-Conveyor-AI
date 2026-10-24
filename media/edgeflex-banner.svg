@@ -33,7 +33,7 @@
 <text x="124" y="403" fill="#f6d28c" font-family="Arial,sans-serif" font-size="13" font-weight="700">FAULT ANALYSIS</text>
 <text x="105" y="427" fill="#b5cbe3" font-family="Arial,sans-serif" font-size="13">Sensor checks · Operator guidance · Experimental ML</text>
 <!-- conveyor rollers and belt -->
-<g transform="translate(610,240)">
+<g transform="translate(610,190) scale(0.85)">
   <text x="0" y="-20" fill="#eaf3ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">PHYSICAL PROTOTYPE</text>
   <path d="M12 68 L520 68 L553 104 L43 104 Z" fill="#29405a" stroke="#516b88" stroke-width="2"/>
   <path d="M43 104 L553 104 L553 205 L43 205 Z" fill="url(#belt)" stroke="#425a75" stroke-width="2"/>
